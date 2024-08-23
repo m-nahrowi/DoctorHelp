@@ -12,7 +12,7 @@ Doctor Help adalah platform untuk penyimpanan, digitalisasi, berbagi, dan penemu
 
 Semua riwayat kesehatan - didigitalisasi - dapat diakses dari mana saja melalui Mobile atau Desktop. Menggunakan AI, kamu dapat **menerjemahkan catatan kesehatan ke dalam lebih dari 50 bahasa** - membuat layanan kesehatan di luar negeri lebih mudah diakses.
 
-Doctor Help menggunakan AI untuk OCR (Optical Character Recognition) bahkan pada foto dokumen kesehatan yang sulit dibaca. Kemudian menyimpan data tersebut di cloud dengan arsitektur [Zero Trust Security](https://github.com/CatchTheTornado/doctor-help/issues/65) (hanya kamu yang bisa mendekripsi data tersebut).
+Doctor Help menggunakan AI untuk OCR (Optical Character Recognition) bahkan pada foto dokumen kesehatan yang sulit dibaca. Kemudian menyimpan data tersebut di cloud dengan arsitektur khusus (hanya kamu yang bisa mendekripsi data tersebut).
 
 Model AI yang didukung termasuk Chat GPT, LLama 3.1, dan Ollama.
 
@@ -56,7 +56,7 @@ Model AI yang didukung termasuk Chat GPT, LLama 3.1, dan Ollama.
 - Mendukung semua jenis catatan medis: Hasil darah, Pemindaian MRI, Pemindaian RTG, Laporan Pasca-Kunjungan, dll.,
 - Mendukung multi pasien,
 - Penghapusan PII (Informasi Identitas Pribadi) menggunakan AI atau daftar hitam,
-- Enkripsi data end-to-end - [baca tentang arsitektur ini](https://github.com/CatchTheTornado/doctor-help/issues/65),
+- Enkripsi data end-to-end,
 - Berbagi aman dengan keluarga, dengan dokter, dll. - menggunakan fitur Kunci Berbagi,
 - Akses dari Mobile atau Desktop,
 - Mendukung tema gelap dan terang,
