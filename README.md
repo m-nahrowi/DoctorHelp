@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="200" src="public/img/doctor-help-logo.svg" />
+    <img width="200" src="public/img/doctor-dok-logo.svg" />
 </p>
 
 ## Doctor Help
