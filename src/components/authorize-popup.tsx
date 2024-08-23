@@ -22,7 +22,7 @@ export function AuthorizePopup({ autoLoginInProgress }: { autoLoginInProgress: b
       <div>
         <div className="flex">
           <img className="w-20" src={currentTheme === 'dark' ? `/img/doctor-dok-logo-white.svg` : `/img/doctor-dok-logo.svg`} />
-          <h1 className="text-5xl text-center p-8 pl-0">Doctor Dok</h1>
+          <h1 className="text-5xl text-center p-8 pl-0">Doctor Help</h1>
         </div>
         <Tabs defaultValue="authorize" className="w-96">
           <TabsList className="grid grid-cols-2">

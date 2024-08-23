@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Doctor Dok',
-    short_name: 'Doctor Dok',
+    name: 'Doctor Help',
+    short_name: 'Doctor Help',
     description: 'Secure Health folder with AI assistant',
     start_url: '/',
     display: 'standalone',
