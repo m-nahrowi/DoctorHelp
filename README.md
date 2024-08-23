@@ -1,95 +1,94 @@
 <p align="center">
-    <img width="200" src="public/img/doctor-dok-logo.svg" />
+    <img width="200" src="public/img/doctor-help-logo.svg" />
 </p>
 
-## Doctor Dok
+## Doctor Help
 
-**1 Password + AI for Health**
+**1 Password + AI untuk Kesehatan**
 
-**Convert all your Blood Tests, MRI Scans, TK Scans, After Visit reports, Hospital Admission Reports to JSON, safely store in the cloud and discuss, annotate, translate it with AI.**
+**Konversi semua Tes Darah, Pemindaian MRI, Pemindaian TK, Laporan Kunjungan, Laporan Rawat Inap ke dalam format JSON, simpan dengan aman di cloud, diskusikan, anotasi, dan terjemahkan dengan AI.**
 
-Doctor Dok is a secure storage, digitization, sharing and AI discovery platform for all your family and/or patients health data.
+Doctor Help adalah platform untuk penyimpanan, digitalisasi, berbagi, dan penemuan data kesehatan keluarga atau pasien dengan dukungan AI.
 
-All health history - digitalized - accesible anywhere from Mobile or Desktop. Using AI you may **translate your health records to one of 50+ languages** - making abroad health services more accesible.
+Semua riwayat kesehatan - didigitalisasi - dapat diakses dari mana saja melalui Mobile atau Desktop. Menggunakan AI, kamu dapat **menerjemahkan catatan kesehatan ke dalam lebih dari 50 bahasa** - membuat layanan kesehatan di luar negeri lebih mudah diakses.
 
-Doctor Dok uses AI to OCR even a hardly readable photo of your healt documents. Then stores it in cloud with [Zero Trust Security architecture](https://github.com/CatchTheTornado/doctor-dok/issues/65) (no body but You can decrypt the data). 
+Doctor Help menggunakan AI untuk OCR (Optical Character Recognition) bahkan pada foto dokumen kesehatan yang sulit dibaca. Kemudian menyimpan data tersebut di cloud dengan arsitektur [Zero Trust Security](https://github.com/CatchTheTornado/doctor-help/issues/65) (hanya kamu yang bisa mendekripsi data tersebut).
 
-Chat GPT, LLama 3.1 and other Ollama supported AI models avaialble.
+Model AI yang didukung termasuk Chat GPT, LLama 3.1, dan Ollama.
 
 <table>
     <tr>
         <td>
-            <a href="readme-assets/screen0.png"><img src="readme-assets/screen0.png" alt="Example record view" /></a>
+            <a href="readme-assets/screen0.png"><img src="readme-assets/screen0.png" alt="Contoh tampilan rekaman" /></a>
         </td>
         <td>
-            <a href="readme-assets/screen1.png"><img src="readme-assets/screen1.png" alt="Multi patients support" /></a>
+            <a href="readme-assets/screen1.png"><img src="readme-assets/screen1.png" alt="Dukungan multi pasien" /></a>
         </td>
         <td>
-            <a href="readme-assets/screen2.png"><img src="readme-assets/screen2.png" alt="Adding health data in any format" /></a>
+            <a href="readme-assets/screen2.png"><img src="readme-assets/screen2.png" alt="Menambahkan data kesehatan dalam format apa pun" /></a>
         </td>
     </tr>
     <tr>
         <td>
-            <a href="readme-assets/screen3.png"><img src="readme-assets/screen3.png" alt="Examination turned digital" /></a>
+            <a href="readme-assets/screen3.png"><img src="readme-assets/screen3.png" alt="Pemeriksaan menjadi digital" /></a>
         </td>
         <td>
-            <a href="readme-assets/screen4.png"><img src="readme-assets/screen4.png" alt="AI used for OCRing the data" /></a>
+            <a href="readme-assets/screen4.png"><img src="readme-assets/screen4.png" alt="AI digunakan untuk OCR data" /></a>
         </td>
         <td>
-            <a href="readme-assets/screen5.png"><img src="readme-assets/screen5.png" alt="AI features" /></a>
+            <a href="readme-assets/screen5.png"><img src="readme-assets/screen5.png" alt="Fitur AI" /></a>
         </td>
     </tr>
 </table>
 
+**Dengan menggunakan AI Chat, seseorang dapat menganalisis riwayat medis bertahun-tahun dalam hitungan detik**, memformulasikan opini kedua, memeriksa perawatan yang mungkin, memeriksa interaksi obat, dll.
 
-**Using AI Chat one might analyze years of medical history within seconds** self-formulating second opinions, checking possible treatments, checking medicine co-inferences etc.
+## Fitur Utama:
 
-## Key Features:
+- Mendigitalisasi semua data kesehatan kamu - bahkan scan yang buruk, mengonversinya ke data terstruktur JSON,
+- Chat dengan AI dengan memilih atau semua catatan kesehatan kamu dalam konteks,
+- Menerjemahkan catatan kamu ke lebih dari 50 bahasa,
+- Mendukung model AI seperti Chat GPT, LLama 3.1, dan model Ollama lainnya,
+- Mendukung OCR Tesseract sebagai alternatif,
+- Mendukung format PDF, PNG, JPG, TIFF, Teks,
+- Penyimpanan data dalam format JSON standar,
+- Mendukung lampiran multi halaman,
+- Mendukung semua jenis catatan medis: Hasil darah, Pemindaian MRI, Pemindaian RTG, Laporan Pasca-Kunjungan, dll.,
+- Mendukung multi pasien,
+- Penghapusan PII (Informasi Identitas Pribadi) menggunakan AI atau daftar hitam,
+- Enkripsi data end-to-end - [baca tentang arsitektur ini](https://github.com/CatchTheTornado/doctor-help/issues/65),
+- Berbagi aman dengan keluarga, dengan dokter, dll. - menggunakan fitur Kunci Berbagi,
+- Akses dari Mobile atau Desktop,
+- Mendukung tema gelap dan terang,
+- API REST penuh dengan otorisasi JWT untuk mengelola `pasien`, `rekaman pasien`, `lampiran terenkripsi`, integrasi AI, dan lainnya.
+- Teknologi stack 100% TypeScript, Next JS, React + Shadcn-ui.
 
-- Digitalize all your health data - even poor scans, converts it to JSON structuralized data,
-- Chat with AI with selected or All your health records in the context,
-- Translate your records to more 50+ languages,
-- Chat GPT, LLama 3.1 and other Ollama supported AI models support,
-- Tesseract OCR as an alternative OCR supported,
-- PDF, PNG, JPG, TIFF, Text support,
-- Standarized JSON data format storage,
-- Multi page attachments support,
-- Supports All types of medical records: Blood results, MRI Scans, RTG Scans, After-Visit reports ...
-- Multi Patients support,
-- PII (Personaly Identifiable Information) removal using AI or Blacklisting,
-- End 2 End data encryption - [read about the architecture](https://github.com/CatchTheTornado/doctor-dok/issues/65)
-- Safe sharing within your family, with your physician etc - using Sharing Key feature,
-- Access from Mobile or Desktop,
-- Dark and Light themes supported,
-- Full Rest API with JWT authorization for managing `patients`, `patinet-records`, `encrypted-attachments`, ai integrations and so on.
-- 100% TypeScript, Next JS, React + Shadcn-ui tech stack.
+## Kasus Penggunaan
+- **Pengguna akhir** - menggunakan Doctor Help sebagai cloud AI kesehatan,
+- **Penyedia medis** - menggunakan Doctor Help sebagai kerangka kerja EHR yang aman dengan berbagi per-pasien,
+- **Teknologi medis** - menggunakan Doctor Help sebagai kerangka kerja untuk pengembangan produk.
 
-## Use cases
-- **End user** - using Doctor Dok as health AI cloud,
-- **Med provider** - using Doctor Dok as secure framework EHR with per-patient sharing,
-- **Med tech** - using Doctor Dok as a framework for product development
+## Data Terstruktur
 
-## Structured data
+Doctor Help menggunakan format JSON standar untuk mengurai semua catatan kesehatan yang dimasukkan. Dengan melakukan ini, membuka jalan bagi fitur-fitur baru yang menarik seperti peringkasan data, diagram, kompresi data, bahkan menyertakan riwayat kesehatan bertahun-tahun dalam konteks AI. Hal-hal yang sebelumnya sangat sulit atau bahkan tidak mungkin dilakukan oleh manusia.
 
-Doctor Dok uses standarized JSON format to which parses all input health records. By doing so it opens a way for all exciting new features like data summarization, diagraming, data compression, taking even years long health history into AI context. Things that previously were very difficult or even impossible for human beings.
+## Penyimpanan Terenkripsi
 
-## Encrypted storage
+Semua catatan kesehatan (termasuk lampiran file) **dienkripsi di browser** sebelum dikirim ke server. Kunci pribadi kamu tidak pernah ditukar dengan server. Oleh karena itu, tidak ada cara untuk mengakses, mengambil alih, atau memodifikasi data. Satu-satunya pengecualian adalah jika kamu memutuskan untuk menggunakan Chat GPT yang mendukung proses penguraian data, peringkasan, konteks, dan pengambilan kesimpulan. Meskipun demikian, kamu harus memasukkan kunci API Chat GPT kamu sendiri dan data dikirim langsung dari browser kamu ke chatGPT sesuai dengan [kebijakan privasi OpenAI](https://openai.com/pl-PL/policies/eu-privacy-policy/).
 
-All the health records (including file attachments) are **encrypted in the browser** before sending to the server. Your private key is never exchanged with the server. Therefore there's no way to access, take over or modify the data. The only exception is if you decide to use Chat GPT which is powering data-parsing, summary, context and conclusion making processes. Even if so, you're up to enter your own Chat GPT API key and the data is being sent directly from your browser to chatGPT subject to [OpenAI privacy policies](https://openai.com/pl-PL/policies/eu-privacy-policy/).
+## Memulai
 
-## Getting Started
-
-Virtually no external dependencies. This app uses SQLite to store per-user database of patients and health records. To start the app just run:
+Hampir tidak ada dependensi eksternal. Aplikasi ini menggunakan SQLite untuk menyimpan basis data per pengguna dari pasien dan catatan kesehatan. Untuk memulai aplikasi cukup jalankan:
 
 ```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka http://localhost:3000 dengan browser kamu untuk melihat hasilnya.
 
-To use AI features make sure you set your chat GPT API Key in the settings.
+Untuk menggunakan fitur AI pastikan kamu mengatur kunci API Chat GPT kamu di pengaturan.
 
-Available ENV settings (overrides the UI settings):
+Pengaturan ENV yang tersedia (menggantikan pengaturan UI):
 
 ```js
 export const ENV_PROVIDED_CONFIG = {
@@ -105,8 +104,3 @@ export const ENV_PROVIDED_CONFIG = {
   piiGeneralData: process.env.NEXT_PUBLIC_PII_GENERAL_DATA
 }
 ```
-
-
-## License
-
-Doctor Dok is released under [MIT](LICENSE) license.
